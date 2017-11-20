@@ -1,9 +1,0 @@
-%TRY_ME is a script that outputs a set of rules
-train_data=load('example_train_data.txt'); % load quatized training data 2 classes, two features
-E=5; %minimum expected value in a hypercell
-h0=1.96; %significance level
-rules=train_rules( train_data,E,h0 );
-
-%rules has the following format
-%{
-column    defin
